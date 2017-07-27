@@ -1,0 +1,137 @@
+---
+campaign: m07-w30-mini-clubman
+description: Testing out the foundation email on mini
+
+#no need to change URL or UTM, campaign is populated by campaign
+
+url: https://promo.schomp.com/email/mini/2017/
+utm: ?utm_source=dps&amp;utm_medium=email&amp;utm_campaign=
+---
+
+<wrapper class="header">
+	<container>
+  	<p class="text-center black-text" style="padding-top: 0; font-size: 11px;">Cant read this email? <a style="font-size: 14px;" href="{{url}}{{campaign}}" target="_blank">Click Here</a></p>
+    <row class="collapse">
+    	<columns large="2" small="12" class="small-float-center">
+      	<img src="{{ url }}/{{ campaign }}/assets/img/mini/menu-logo.png">
+      </columns>
+      <columns class="show-for-large">
+      	<p class="black-text text-right">720.555.5555<br />1001 Plum Valley Lane<br /> Highlands Ranch, Co 80129</p>
+      </columns>
+    </row>
+  </container>
+</wrapper>
+
+<container>
+	<wrapper>
+  	<row>
+    	<center>
+	      <menu class="small-vertical">
+	          <item href="http://zurb.com{{utm}}{{ campaign }}">New</item>
+	          <item href="https://www.schompbmw.com/new-vehicles/2-series/{{utm}}{{ campaign }}#action=im_ajax_call&perform=get_results&_post_id=455&model%5B%5D=2+Series&model%5B%5D=3+Series&page=1&show_all_filters=false">Used</item>
+	          <item href="http://zurb.com">CPO</item>
+	          <item href="http://zurb.com">Finance</item>
+	          <item href="http://zurb.com">Specials</item>
+	      </menu>
+	   </center>
+   </row>
+   <row>
+	   <columns large="12">
+	     <img src="{{ url }}/{{ campaign }}/assets/img/mini/mainBanner.jpg" alt="">
+	     <spacer size="10"></spacer>
+	     <h2>THE ICON LIVES ON.</h2>
+	     <p>In 1975, BMW sparked a revolution with the 3 Series. And more than 40 years later, it's still the benchmark of the segment it invented. Forever evolving, its style and handling make it the most popular Series in the lineup. Each of its three models—Sedan, Sports Wagon and Gran Turismo—guarantee the ultimate thrills.</p>
+	     <button class="expanded secondary" href="#">VIEW ALL SPECIALS</button>
+	   </columns>
+  </row>
+	<wrapper>
+	  <spacer size="16"></spacer>
+		<row>
+<!--VEHICE 1 -->
+      <columns large="6">
+        <center>
+          <img src="{{ url }}/{{ campaign }}/assets/img/vehicle-1.jpg" alt="">
+        </center>
+
+      </columns>
+     <!--PAYMENT -->
+      <columns large="6">
+        <h4 class="no-space">2017 BMW 320i xDrive</h4>
+        <h6  class="no-space">Lease for $289 per month </h6>
+        <p  class="no-space">with 2,500 Down</p>
+        <spacer size="10"></spacer>
+        <button href="#" class="expanded">View All 3 SERIES</button>
+      </columns>
+    </row>
+    <spacer size="20"></spacer>
+    <row >
+<!--VEHICE 2 -->
+    <!--- MOBILE ONLY VEH 2 IMG -->
+     <columns large="6"  class="hide-for-large">
+       <center>
+         <img src="{{ url }}/{{ campaign }}/assets/img/vehicle-1.jpg" alt="">
+       </center>
+     </columns>
+     <!--PAYMENT -->
+      <columns large="6">
+        <h4 class="no-space">2017 BMW 320i xDrive</h4>
+        <h6  class="no-space">Lease for $289 per month </h6>
+        <p  class="no-space">with 2,500 Down</p>
+        <spacer size="10"></spacer>
+                    <button href="#" class="expanded">View All 3 SERIES</button>
+                </columns>
+                <!---VEH 2 IMG -->
+                <columns large="6"  class="show-for-large">
+                    <center>
+                        <img src="{{ url }}/{{ campaign }}/assets/img/vehicle-1.jpg" alt="">
+                    </center>
+
+                </columns>
+
+            </row>
+
+        </wrapper>
+
+        <!--FOOTER -->
+        <wrapper>
+            <hr>
+
+            <spacer size="16"></spacer>
+
+            <row>
+                <columns large="6">
+                    <img src="{{ url }}/{{ campaign }}/assets/img/mini/footer-logo.png">
+
+                </columns>
+                <columns large="6">
+
+                    <h6><strong>SALES:</strong></span><br />
+                        <span>Phone: 720.496.4597 </span>
+                        <spacer size="10"></spacer>
+                        <h6><strong>HOURS:</strong></span><br />
+         <span>Mon - Sat 9:00 AM - 9:00 PM<span><br />
+         <span>Sunday: Closed<span>
+
+                </columns>
+            </row>
+            <hr>
+
+            <!--SOCIAL ICONS -->
+            <row class="collapsed footer">
+                <columns>
+                    <spacer size="16"></spacer>
+                    <p class="text-center">CONNECT WITH US<br/>
+                    </p>
+
+                    <center>
+                        <menu>
+                            <item><img src="{{ url }}/{{ campaign }}/assets/img/icon-facebook.jpg" alt=""></item>
+                            <item><img src="{{ url }}/{{ campaign }}/assets/img/icon-instagram.jpg" alt=""></item>
+                            <item><img src="{{ url }}/{{ campaign }}/assets/img/icon-twitter.jpg" alt=""></item>
+                        </menu>
+                    </center>
+                </columns>
+            </row>
+        </wrapper>
+
+</container>

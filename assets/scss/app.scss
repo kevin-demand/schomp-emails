@@ -2,3 +2,13 @@
 @import 'foundation-emails';
 
 @import 'template/template';
+
+
+h1, h2, h3, h4, h5, h6 {@extend %headings !optional;}
+
+
+%headings.no-space, p.no-space {
+    margin-bottom: 5px;
+    line-height: 1.0;
+}
+.black-text{color:#000000 !important;}
